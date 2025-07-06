@@ -1,0 +1,52 @@
+One day a rabbit was boasting about how fast he could run. He was laughing at the turtle for being so slow. Much to the rabbit’s surprise, the turtle challenged him to a race. The rabbit thought this was a good joke and accepted the challenge. The fox was to be the umpire of the race. As the race began, the rabbit raced way ahead of the turtle, just like everyone thought. The rabbit got to the halfway point and could not see the turtle anywhere. He was hot and tired and decided to stop and take a short nap. Even if the turtle passed him, he would be able to race to the finish line ahead of him. All this time the turtle kept walking step by step by step. He never quit no matter how hot or tired he got. He just kept going. However, the rabbit slept longer than he had thought and woke up. He could not see the turtle anywhere! He went at full speed to the finish line but found the turtle there waiting for him.
+Bangladesh is a small and beautiful country in South Asia. 
+We got independence in 1971 from Pakistan after a long war. 
+Because of the sacrifice of millions of freedom fighters we got this country. 
+16 December is our Victory Day because this day the Pakistani army surrendered. 
+And 26th March is our Independence Day. We are the only nation that sacrifices lives for language and now it is known as International Mother Language Day on 21st February. 
+More than 180 countries celebrate this day. 
+Bangladesh is a very beautiful country to see. 
+Bangladesh is a small country with a huge population. 
+The total area of Bangladesh is 147,570 square kilometers but the total population is more than 164 million. 
+Still, it is a green and naturally beautiful country. 
+Our country is growing economically and it is doing well in export too. 
+We are the leader in world garments exporting right after china. 
+Not only in the economy, but we also good at sports too. 
+Our cricket team is one of the top seven teams in the world. 
+Bangladesh has a very heart touching history behind. 
+In 1971 this country got independence from Pakistan after a nine months war. 
+Lots of people sacrificed their lives in that time. 
+On 16 December the Pakistani army surrendered and we got a new nation. 
+That’s why we celebrate on 16 December as our Victory Day. 
+Bangladesh is a very beautiful country with lots of natural spots to see. 
+I love my country a lot.
+#include <iostream> 
+using namespace std; 
+int main() { 
+int number; 
+cout << "Enter an integer: "; 
+cin >> number; 
+if (number>0) { 
+cout << "You entered a positive integer: " << number << endl; 
+} 
+cout << "This statement is always executed."; 
+return 0; 
+} 
+#include <iostream> 
+using namespace std; 
+int main() { 
+for (int i=1; i<=5; ++i) { 
+cout << i << " "; 
+} 
+return 0; 
+} 
+#include <iostream> 
+using namespace std; 
+int main() { 
+for (int i=1; i<=5; i++) { 
+if (i==3) { 
+continue; 
+} 
+cout << i << endl; 
+return 0;
+}

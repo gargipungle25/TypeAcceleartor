@@ -1,0 +1,73 @@
+public class SampleJavaCode {
+public static void main(String[] args) {
+System.out.println("Hello, World!");
+int number = 42;
+String message = "This is a sample message";
+if (number > 30) {
+System.out.println("The number is greater than 30");
+} else {
+System.out.println("The number is not greater than 30");
+}
+for (int i = 0; i < 5; i++) {
+System.out.println("Iteration " + (i + 1));
+}
+int sum = addNumbers(10, 20);
+System.out.println("Sum of numbers: " + sum);
+}
+public static int addNumbers(int a, int b) {
+return a + b;
+}
+}
+public class Main {
+public static void main(String[] args) {
+int[] arr = {64, 34, 25, 12, 22, 11, 90};
+int n = arr.length;
+boolean swapped;
+do {
+swapped = false;
+for (int i = 1; i < n; i++) {
+if (arr[i - 1] > arr[i]) {
+int temp = arr[i - 1];
+arr[i - 1] = arr[i];
+arr[i] = temp;
+swapped = true;
+}
+}
+n--;
+} while (swapped);
+System.out.print("Sorted Array: ");
+for (int num : arr) {
+System.out.print(num + " ");
+}
+}
+}
+#include <iostream>
+using namespace std;
+int main() {
+int number;
+cout << "Enter an integer: ";
+cin >> number;
+if (number>0) {
+cout << "You entered a positive integer: " << number << endl;
+}
+cout << "This statement is always executed.";
+return 0;
+}
+#include <iostream>
+using namespace std;
+int main() {
+for (int i=1; i<=5; ++i) {
+cout << i << " ";
+}
+return 0;
+}
+#include <iostream>
+using namespace std;
+int main() {
+for (int i=1; i<=5; i++) {
+if (i==3) {
+continue;
+}
+cout << i << endl;
+return 0;
+}

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Result GUI-->
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tonevellah.demofx1.Scene6Controller">
+    <children>
+        <Button fx:id="button" layoutX="598.0" layoutY="573.0" mnemonicParsing="false" onAction="#tryagain" prefHeight="63.0" prefWidth="200.0" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" text="Try Again" textFill="#333030">
+            <cursor>
+                <Cursor fx:constant="HAND" />
+            </cursor>
+         <font>
+            <Font name="System Bold" size="21.0" />
+         </font></Button>
+      <Circle fill="#fafdff" layoutX="471.0" layoutY="286.0" radius="65.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="890.0" layoutY="242.0" text="Accuracy">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="187.0" fitWidth="814.0" layoutX="285.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TypeAcceleratorLogo1.png" />
+         </image>
+      </ImageView>
+      <Circle fill="#fafdff" layoutX="698.0" layoutY="285.0" radius="65.0" stroke="BLACK" strokeType="INSIDE" />
+      <VBox layoutY="-4.0" prefHeight="663.0" prefWidth="290.0" style="-fx-background-color: #3F2B63;" />
+      <ImageView fitHeight="259.0" fitWidth="298.0" layoutX="69.0" layoutY="361.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TypeAcceleratorLogo.png" />
+         </image>
+      </ImageView>
+      <Circle fill="DODGERBLUE" layoutX="471.0" layoutY="286.0" radius="70.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fill="#fafdff" layoutX="471.0" layoutY="285.0" radius="65.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="424.0" layoutY="249.0" text="Total Typed">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="typedwordsLabel" alignment="CENTER" layoutX="410.0" layoutY="297.0" prefHeight="35.0" prefWidth="122.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Circle fill="DODGERBLUE" layoutX="698.0" layoutY="285.0" radius="70.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" />
+      <Circle fill="#fafdff" layoutX="698.0" layoutY="285.0" radius="65.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="642.0" layoutY="248.0" text="Wrong Word">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="wrongWordTypedLabel" alignment="CENTER" layoutX="639.0" layoutY="301.0" prefHeight="35.0" prefWidth="122.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Circle fill="DODGERBLUE" layoutX="937.0" layoutY="288.0" radius="70.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="937.0" layoutY="288.0" radius="65.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="891.0" layoutY="244.0" text="Accuracy">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="accuracyLabel" alignment="CENTER" layoutX="906.0" layoutY="288.0" prefHeight="54.0" prefWidth="62.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Circle fill="DODGERBLUE" layoutX="702.0" layoutY="475.0" radius="80.0" stroke="BLACK" strokeLineCap="ROUND" strokeType="INSIDE" />
+      <Circle fill="WHITE" layoutX="702.0" layoutY="475.0" radius="75.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="657.0" layoutY="423.0" text="WPM">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label fx:id="wpmLabel" alignment="CENTER" layoutX="655.0" layoutY="482.0" prefHeight="54.0" prefWidth="94.0" text="Label" textAlignment="CENTER">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+    </children>
+    <effect>
+        <Blend />
+    </effect>
+</AnchorPane>

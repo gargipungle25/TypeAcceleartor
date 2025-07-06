@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--Scene after logging or signing in-->
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tonevellah.demofx1.Scene4Controller">
+   <children>
+      <VBox layoutX="-8.0" layoutY="1.0" prefHeight="650.0" prefWidth="350.0" style="-fx-background-color: #3F2B63;" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Pane prefHeight="150.0" prefWidth="350.0" />
+            <Button mnemonicParsing="false" onAction="#playGame" prefHeight="75.0" prefWidth="350.0" style="-fx-background-color: #3F2B63;" text="WPMRush" textAlignment="CENTER" textFill="#ebe6e6">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <ColorAdjust brightness="0.27" />
+               </effect>
+            </Button>
+            <Pane prefHeight="4.0" prefWidth="283.0" />
+            <Button mnemonicParsing="false" prefHeight="75.0" prefWidth="350.0" style="-fx-background-color: #3F2B63;" text="Custom Race" textAlignment="CENTER" textFill="#ebe6e6">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <ColorAdjust brightness="0.27" />
+               </effect>
+            </Button>
+            <Pane prefHeight="4.0" prefWidth="283.0" />
+            <Button mnemonicParsing="false" onAction="#exit" prefHeight="75.0" prefWidth="350.0" style="-fx-background-color: #3F2B63;" text="Logout" textFill="#ebe6e6">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <effect>
+                  <ColorAdjust brightness="0.27" />
+               </effect>
+            </Button>
+            <Pane prefHeight="4.0" prefWidth="283.0" />
+         </children>
+      </VBox>
+      <Pane layoutX="10.0" layoutY="10.0" prefHeight="4.0" prefWidth="283.0" />
+      <ImageView fitHeight="120.0" fitWidth="757.0" layoutX="343.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TypeAcceleratorLogo1.png" />
+         </image>
+      </ImageView>
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+</AnchorPane>

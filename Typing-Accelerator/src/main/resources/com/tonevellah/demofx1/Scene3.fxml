@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Register Scene-->
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.tonevellah.demofx1.Scene3Controller">
+   <children>
+      <TextField fx:id="uname" layoutX="645.0" layoutY="268.0" prefHeight="65.0" prefWidth="272.0" promptText="User Name" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <PasswordField fx:id="pass" layoutX="645.0" layoutY="365.0" prefHeight="65.0" prefWidth="272.0" promptText="Password" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </PasswordField>
+      <Button layoutX="727.0" layoutY="472.0" mnemonicParsing="false" onAction="#menu" prefHeight="37.0" prefWidth="95.0" style="-fx-background-color: #0598ff;" text="SignUp" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text fill="#0095ff" layoutX="663.0" layoutY="237.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Registration" wrappingWidth="235.20000000000005">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="97.0" fitWidth="597.0" layoutX="505.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TypeAcceleratorLogo1.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="745.0" layoutY="566.0" mnemonicParsing="false" onAction="#goback" prefHeight="28.0" prefWidth="62.0" style="-fx-background-color: transparent; -fx-border-color: #0598ff; -fx-border-width: 0px 0px 2px 0px;" text="Go Back" textFill="#333030">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="warning" alignment="CENTER" layoutX="634.0" layoutY="523.0" prefHeight="26.0" prefWidth="288.0" text="warning" textFill="#bf2626" visible="false">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Circle fill="#3f2b63" layoutX="20.0" layoutY="172.0" radius="505.0" stroke="BLACK" strokeType="INSIDE" />
+      <ImageView fitHeight="344.0" fitWidth="375.0" layoutX="170.0" layoutY="301.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@TypeAcceleratorLogo.png" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" layoutX="164.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Why Here?">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="54.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Slow Typing speed? Improve your WPM score">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="150.0" layoutY="262.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Try our app Today">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+   </children>
+   <effect>
+      <Blend />
+   </effect>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>
